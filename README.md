@@ -15,7 +15,7 @@ ros::NodeHandle node_obj;
 ros::Subscriber number_subscriber = node_obj.subscribe("/face_centroid",10,face_callback);
 dynamixel_control = node_obj.advertise<std_msgs::Float64>("/pan_controller/command",10);
 ```
-
+Chapter 1 does not have any codes.
 
 
 
